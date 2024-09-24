@@ -56,7 +56,7 @@ setData((prev)=> result ? value : prev + value )
     <Container className="buttons" style={{height:'200%'}}>
        <div className="nametag">
 
-        <h2 className="calciname">CALCULATOR</h2>
+        <h2 className="calciname">CALCULATOR KAVI</h2>
         </div>
         
    <input
