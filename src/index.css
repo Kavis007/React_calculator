@@ -1,0 +1,94 @@
+.buttons{
+  display: grid;
+  text-align: justify;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  margin-top: 110px;
+  background:linear-gradient(grey,black)
+}
+.b1{
+  width: 100px;
+  height: 100px;
+  color: greenyellow;
+  background-color: black;
+  font-size: 30px;
+  font-weight: 400;
+  margin-right: 3px;
+  border: none;
+  border-radius: 10px;
+}
+.b1:hover{
+  color: black;
+  background-color: lightgray;
+}
+.b1:focus{
+  color: green;
+  background-color: red;
+}
+.button1{
+  margin-top: 3px;
+}
+.inp1{
+  width: 94%;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  color:khaki;
+  background-color: black;
+  text-align: right;
+  font-size: 30px;
+  font-weight: 400;
+}
+.butt{
+  width:100px;
+  grid-column: span 4;
+}
+
+.b2{
+/* padding-left: 70px;
+padding-right: 115px; */
+/* display: flex;
+align-items: center;
+justify-content: center; */
+width: 100%;
+color: navy;
+background-color: cornsilk;
+font-size: 30px;
+font-weight: 400;
+border: none;
+border-radius: 10px;
+}
+.b2:hover{
+  color: white;
+  background-color:lavender;
+}
+.b2:focus{
+  color: green;
+  background-color: red;
+}
+.button2{
+  /* margin-top: 3px; */
+
+}
+.nametag{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calciname{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  font-weight: 900;
+  color: yellowgreen;
+}
+.calciname:hover{
+  color: red;
+}
+.body{
+  background-image: url('./calci\ bground.jpg');
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
